@@ -1,0 +1,40 @@
+table {
+    width: 50%;
+    border: 1px solid #263238;
+}
+
+table caption {
+    color: #263238;
+    font-weight: bold;
+    font: 18px;
+    margin: 5px;
+}
+
+table thead {
+    background-color: #455a64;
+    color: white;
+    font-weight: 700;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eceff1;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #b0bec5;
+}
+
+tfoot {
+    background-color: #78909c;
+    font-weight: 800;
+}
+
+tbody td.entrate {
+    color: #003300;
+    text-align: right;
+}
+
+tbody td.uscite {
+    color: #7f0000;
+    text-align: right;
+}
