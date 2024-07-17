@@ -1,10 +1,8 @@
-import Color from './Color';
-
-export function Colors({ colors }) {
+function Colors({ colors }) {
     return (
         <ul>
-            {colors.map(color => (
-                <Color key={color.id} color={color} />
+            {colors.map((color)=> (
+                <li key={color.id}>{color.name}</li>
             ))}
         </ul>
     );

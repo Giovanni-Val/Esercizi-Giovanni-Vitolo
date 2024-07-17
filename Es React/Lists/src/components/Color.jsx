@@ -1,7 +1,9 @@
-export function Color({ color }) {
+function Color({ color }){
     return (
-        <li>{color.name}</li>
-    );
+        <div>
+            <li>{color.name}</li>
+        </div>
+    )
 }
 
-export default Color;
+export default Color
