@@ -1,25 +1,21 @@
-import { useEffect, useState } from "react";
-import CounterDisplay from "./CounterDisplay";
+import { useState } from "react";
+import { CounterDisplay } from "./CounterDisplay";
 
-export function Counter({ }) {
-    const [counter, setCounter] = useState(0);
+export const Counter = ({ initialValue, incrementAmount }) => {
 
-    useEffect(() => {
-        console.log(`Counter value is: ${counter}`)
-    }, [counter])
+    const [counter, setCounter] = useState(initialValue);
 
     function counterIncrement() {
-        setCounter(prevCounter => prevCounter + 1);
+        setCounter(prevCounter => prevCounter + incrementAmount);
     }
 
     function counterDecrement() {
-        setCounter(prevCounter => prevCounter - 1);
+        setCounter(prevCounter => prevCounter - incrementAmount);
     }
 
     function counterReset() {
-        setCounter(0);
+        setCounter(initialValue);
     }
-
 
     return (
         <div>
