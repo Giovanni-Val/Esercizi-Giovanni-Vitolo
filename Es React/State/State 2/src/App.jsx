@@ -1,6 +1,6 @@
 import { Counter } from "./Components/Counter";
 
-export function App() {
+export const App = () => {
   return (
     <div>
       <h1>Welcome to this totally awesome counter!</h1>
@@ -8,4 +8,3 @@ export function App() {
     </div>
   )
 }
-export default App
