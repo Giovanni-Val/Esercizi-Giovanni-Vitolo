@@ -1,0 +1,82 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .inputGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    flex-grow: 1;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .addButton {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .addButton:hover {
+    background-color: #218838;
+  }
+  
+  .resetButton {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .resetButton:hover {
+    background-color: #c82333;
+  }
+  
+  .todoList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todoItem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .removeButton {
+    padding: 5px;
+    background-color: #ffc107;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .removeButton:hover {
+    background-color: #e0a800;
+  }
+  
