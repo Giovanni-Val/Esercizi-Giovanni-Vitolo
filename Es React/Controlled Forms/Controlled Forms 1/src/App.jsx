@@ -1,13 +1,9 @@
-import { Login } from "./components/Login";
+import InteractiveWelcome from './Components/InteractiveWelcome';
 
-export function App() {
-
-  return (
-    <div>
-      <Login></Login>
-    </div>
-  )
-
-}
-
-export default App
+ export const App = () => {
+    return (
+        <div>
+            <InteractiveWelcome />
+        </div>
+    );
+};

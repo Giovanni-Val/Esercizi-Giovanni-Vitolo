@@ -1,13 +1,10 @@
-import { Login } from "./components/Login";
+import { Login } from "./Components/Login";
 
-export function App() {
-
-  return (
-    <div>
-      <Login></Login>
-    </div>
-  )
-
-}
-
-export default App
+export const App = () => {
+    return (
+        <div>
+            <h1>Login</h1>
+            <Login />
+        </div>
+    );
+};
